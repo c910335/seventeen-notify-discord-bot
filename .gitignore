@@ -1,0 +1,6 @@
+.bundle
+vendor
+*.json*
+config.rb
+doc
+.yardoc
