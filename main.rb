@@ -7,12 +7,16 @@
 
 require 'rubygems'
 require 'bundler/setup'
+require 'forwardable'
 require 'json'
 require 'net/http'
 require 'tempfile'
 require 'discordrb'
 require './config'
 require './src/subscription'
+require './src/data'
+require './src/command_manager'
+require './src/monitor'
 require './src/bot'
 
 $stdout.sync = true

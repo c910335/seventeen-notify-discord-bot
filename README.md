@@ -1,6 +1,6 @@
 # Seventeen Notify Discord Bot
 
-A Discord bot for [17LIVE](https://17.live) stream notification.
+A Discord bot for [17LIVE](https://17.live) stream notifications.
 
 ## Installation
 
@@ -43,6 +43,8 @@ ruby main.rb
 2. Install the bot via the install link from [Discord Developer Portal](https://discord.com/developers/applications/).
 
 3. Talk to the bot on Discord with the following commands and their parameters.
+
+## Commands
 
 - `/subscribe`: Subscribe to a 17LIVE stream for the current channel.
   - `stream_id` (Integer): The ID of the 17LIVE stream to be notified here. A stream ID can be found in the URL of the liver's profile (e.g., `https://17.live/zh-Hant/profile/#{stream_id}`).
